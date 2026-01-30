@@ -1,5 +1,23 @@
+/* open-sans-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/open-sans-v44-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
 * {
     box-sizing: border-box;
+}
+
+/* changa-one-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Changa One';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/changa-one-v22-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 body {
@@ -7,6 +25,13 @@ body {
     color: #011627;
     font-size: 100%;
     line-height: 1.4;
+    font-family: Open Sans, sans-serif;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Changa One', sans-serif;
+    font-weight: 400;
 }
 
 h1 {
@@ -26,4 +51,23 @@ p {
 a {
     color: #e71d36;
     text-decoration: none;
+}
+
+.nom {
+    font-family: 'Changa One', sans-serif;
+    font-size: 1.75rem;
+    line-height: 0.8;
+    margin: 1rem 0;
+    color: #2ec4b6;
+}
+
+.medium {
+    margin-top: -5px;
+}
+
+header {
+    text-align: center;
+    background-color: #011627;
+    padding-top: 5px;
+    margin-bottom: 30px;
 }
