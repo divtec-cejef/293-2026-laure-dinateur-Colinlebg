@@ -159,21 +159,41 @@ footer nav ul li img:hover {
 }
 
 .page-contact .info-contact li a[href^="mailto:"] {
-    background-image: url('../_sources/img/mail.png');
+    background-image: url('../img/mail.png');
 }
 
 .page-contact .info-contact li a[href^="tel:"] {
-    background-image: url('../_sources/img/phone.png');
+    background-image: url('../img/phone.png');
 }
 
 .page-contact .info-contact li a[href^="https://facebook.com"] {
-    background-image: url('../_sources/img/facebook.png');
+    background-image: url('../img/facebook.png');
 }
 
 .page-contact .info-contact li a[href^="https://twitter.com/"] {
-    background-image: url('../_sources/img/twitter.png');
+    background-image: url('../img/twitter.png');
 }
 
 .active {
     color: #2ec4b6;
+}
+
+
+.realisations ul li {
+    display: inline-block;
+    width: 45%;
+    margin: 2.5%;
+    vertical-align: top;
+}
+
+.realisations ul li figcaption {
+    padding: 10px;
+    font-size: 1rem;
+    overflow: hidden;
+}
+
+.realisations img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
