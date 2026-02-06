@@ -1,0 +1,10 @@
+@media (min-width: 480px) {
+    .realisations ul li {
+        width: 25vw;
+    }
+
+    .profil {
+        float: left;
+    }
+}
+
