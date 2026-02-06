@@ -178,22 +178,37 @@ footer nav ul li img:hover {
     color: #2ec4b6;
 }
 
+.realisations ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+}
+
 .realisations ul li {
     display: inline-block;
-    width: 45%;
+    width: 40vw;
     margin: 2.5%;
     vertical-align: top;
 }
 
+.realisations figure {
+    margin: 0;
+}
+
 .realisations figcaption {
-    background-color: #e9ecef;
+    background-color: #e7e9eb;
     padding: 10px;
     font-size: 1rem;
     overflow: hidden;
 }
 
+.realisations ul li a {
+   color: #011627;
+}
+
 .realisations img {
-    display: block;
+    display: inline-block;
     width: 100%;
     height: auto;
 }
