@@ -140,6 +140,10 @@ footer nav ul li img:hover {
     display: block;
 }
 
+.page-info h1 {
+    text-align: center;
+}
+
 .page-contact .info-contact {
     margin: 0 0 0 10px;
     padding: 0;
